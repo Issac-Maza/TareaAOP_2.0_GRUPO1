@@ -8,9 +8,7 @@ package espol.poo.tareaaop;
  *
  * @author maza-
  */
-interface MediaPlayer{
-    void play(String fileName);
-}
+//Clase que reproduce solamente MP3
 public class AudioPlayer implements MediaPlayer{
 
     @Override
@@ -18,7 +16,8 @@ public class AudioPlayer implements MediaPlayer{
         if(fileName.endsWith(".mp3")){
             System.out.println("Reproduciendo archivo MP3: " + fileName);
         }else{
-            System.out.println("Formato no soportado");
+            Adapter adapter = new Adapter(fileName);
+            adapter.play(fileName);
         }
     }
     

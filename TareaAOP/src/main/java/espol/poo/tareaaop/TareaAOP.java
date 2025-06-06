@@ -8,6 +8,7 @@ package espol.poo.tareaaop;
  *
  * @author maza-
  */
+// Clase principal que usa el adaptador
 public class TareaAOP {
 
     public static void main(String[] args) {
