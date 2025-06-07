@@ -10,4 +10,5 @@
         <maven.compiler.release>23</maven.compiler.release>
         <exec.mainClass>espol.poo.tareaaop.TareaAOP</exec.mainClass>
     </properties>
+    <name>SeccionATareaAOP</name>
 </project>
