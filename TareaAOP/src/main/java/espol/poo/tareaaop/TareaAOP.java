@@ -16,5 +16,8 @@ public class TareaAOP {
         MediaPlayer player = new AudioPlayer();
         player.play("Superman.mp3");
         player.play("TUTORIAL_Para_PASAR_DISENO_DE_SOFTWARE.mp4");
+        
+        Singleton singleton = Singleton.getInstancia();
+        singleton.mostrarMensaje();
     }
 }
